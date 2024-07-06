@@ -1,3 +1,5 @@
-root@srv23.mikr.us -p 10201
-root@srv23.mikr.us -p 10227
-root@srv23.mikr.us -p 10228
+[srv23]
+srv23-10201 ansible_host=srv23.mikr.us ansible_port=10201 ansible_user=root
+srv23-10227 ansible_host=srv23.mikr.us ansible_port=10227 ansible_user=root
+srv23-10228 ansible_host=srv23.mikr.us ansible_port=10228 ansible_user=root
+
