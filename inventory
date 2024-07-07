@@ -1,5 +1,5 @@
 [srv23]
-srv23-10201 ansible_host=srv23.mikr.us ansible_port=10201 ansible_user=root
-srv23-10227 ansible_host=srv23.mikr.us ansible_port=10227 ansible_user=root
-srv23-10228 ansible_host=srv23.mikr.us ansible_port=10228 ansible_user=root
+srv23-10201 ansible_host=srv23.mikr.us ansible_port=10201 ansible_user=root apache_package=apache2 php_package=libapache2-mod-php
+srv23-10227 ansible_host=srv23.mikr.us ansible_port=10227 ansible_user=root apache_package=apache2 php_package=libapache2-mod-php
+srv23-10228 ansible_host=srv23.mikr.us ansible_port=10228 ansible_user=root apache_package=apache2 php_package=libapache2-mod-php
 
